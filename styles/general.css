@@ -1,7 +1,12 @@
+*{
+    font-size: 10px;
+}
+
 p{
     font-family: Roboto, sans-serif;
     margin-top: 0;
     margin-bottom: 0;
+    
 }
 
 body{
