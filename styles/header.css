@@ -31,6 +31,7 @@
 
 .youtube-logo{
     height: 20px;
+    padding-left: 8px;
 }
 
 .middle-section{
@@ -183,4 +184,51 @@
 .my-channel-picture{
     height: 30px;
     border-radius: 16px;
+}
+
+.mobile-right-section{
+    display: flex;
+    height: 50px;
+    width: 80px;
+
+
+    
+}
+
+.mobile-search-icon{
+    height: 29px;
+    padding-top: 9px;
+    padding-right: 7px;
+}
+
+.mobile-profile-picture{
+    height: 30px;
+    padding-top: 0px;
+    padding-right: 5px;
+}
+
+
+@media screen and (max-width: 699px) {
+    .hamburger-menu{
+        display: none;
+    }
+
+    .youtube-logo{
+        padding-left: 12px;
+    }
+
+    .middle-section{
+        display: none;
+    }
+
+    .right-section{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #mobile-right-section{
+        display: none;
+    }
+    
 }

@@ -5,10 +5,11 @@
     left: 0;
     bottom: 0;
     top: 60px;
-    width: 76px;
+    width: 100px;
     z-index: 2;
     padding-top: 5px;
 
+    overflow:scroll;
 }
 
 .sidebar-link{
@@ -37,4 +38,11 @@
     font-size: 11px;
     margin-top: -2px;
 
+}
+
+@media screen and (max-width: 699px) {
+    .sidebar{
+        display: none;
+
+    }
 }
